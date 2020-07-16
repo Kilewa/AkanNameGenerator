@@ -20,6 +20,34 @@
                 <p class="lead">Play and have fun!!!!</p>
             </div>
         </div>
+        <form class="myform" onsubmit="return generateAkanName()">
+            <label for="yearOfBirth">
+                Year:
+                <input id="yearInput" type="number" name="yearOfBirth" placeholder="YYYY" value="" required>
+            </label>
+            <label for="monthOfBirth">
+                Month:
+                <input id="monthInput" type="number" name="monthOfBirth" placeholder="MM" value="" required>
+            </label>
+            <label for="dayOfBirth">
+                Day:
+                <input id="dayInput" type="number" name="dayOfBirth" placeholder="DD" value="" required>
+            </label>
+            <br>
+            <label for="gender">
+                <p>Choose your gender: </p>
+                Male
+                <input id="maleInput" type="radio" name="gender" value="male" required>
+                Female
+                <input id="femaleInput" type="radio" name="gender" value="female" required>
+            </label>
+            <br><br>
+            <input id="generate-name" type="submit" name="" value="Generate name">
+            <br><br>
+          </form>
+          <form onsubmit="return clearInput()">
+            <input class="clear" type="submit" value="Reset">
+          </form>
     </div>
 </body>
 </html>
