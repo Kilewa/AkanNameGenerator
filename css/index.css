@@ -11,6 +11,18 @@ body{
     background-attachment: fixed;
 }
 
+.block{
+    background-color: #AED4E6;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    opacity: 0.9;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
 
 .jumbotron{
     margin: 50px;
@@ -24,9 +36,10 @@ body{
 .input-form{
     text-align: center;
     background-color: #AED4E6;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
-    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     opacity: 0.9;
     color: #5C1A1B;
     font-size: 18px;
@@ -67,4 +80,22 @@ input[type=radio] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#nameDisplay{
+    text-align: center;
+    justify-content: center;
+    color: #5C1A1B;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+}
+#your-akan-name{
+    text-align: center;
+    justify-content: center;
+    color: #5C1A1B;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
 }

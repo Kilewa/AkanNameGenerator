@@ -13,16 +13,22 @@
         <!-- The Landing Page / welcome Note -->
 
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Welcome to Akan Names Generator</h1>
-                <p class="lead">This is a web application that generates Akan name 
-                    for you after inputting your date of birth. Akan names are derived 
-                    from Ghanian culture. Frequently in Ghana, children are given their first 
-                    name as a 'day name' which corresponds to the day in the week 
-                    they were born.</p>
-                <p class="lead">Play and have fun!!!!</p>
-            </div>
+            <h1 class="display-4">Welcome to Akan Names Generator</h1>
+            <p class="lead">This is a web application that generates Akan name 
+                for you after inputting your date of birth. Akan names are derived 
+                from Ghanian culture. Frequently in Ghana, children are given their first 
+                name as a 'day name' which corresponds to the day in the week 
+                they were born.</p>
+            <p class="lead">Play and have fun!!!!</p>
         </div>
+
+          <!-- Block to display Akan Name  -->
+          <div class="block">
+            <h6 id = "nameDisplay">Fill the form below, click on generate 
+                name button  & check your Akan name here:👇</h6>
+            <p id="your-akan-name"></p>
+          </div>
+        
 
         <!-- forms to collect user input  -->
 
@@ -51,7 +57,7 @@
                 <input id="femaleInput" type="radio" name="gender" value="female" required>
             </label>
             <br><br>
-            <input class="bg-primary" id="generate-name" type="submit" name="" value="Generate Name">
+            <input  class="bg-primary" id="generate-name" type="submit" name="" value="Generate name">
             <br><br>
         </form>
 
@@ -60,11 +66,7 @@
         <form class="reset-form" onsubmit="return clearInput()">
             <input class="reset-btn bg-danger" type="submit" value="Reset">
         </form>
-        <h4 id = "nameDisplay"><strong>Your Akan name will be displayed below:</strong></h4>
-        
-        <!-- Block to display Akan Name  -->
-
-        <p id="your-akan-name"></p>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
