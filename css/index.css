@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../images/africa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 .jumbotron{
     margin: 50px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+
 }
