@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="container">
+
+        <!-- The Landing Page / welcome Note -->
+        
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Welcome to Akan Names Generator</h1>
@@ -20,6 +23,9 @@
                 <p class="lead">Play and have fun!!!!</p>
             </div>
         </div>
+
+        <!-- forms to collect user input  -->
+
         <form class="input-form" onsubmit="return generateAkanName()">
             <label for="yearOfBirth">
                 Year:
@@ -34,6 +40,9 @@
                 <input id="dayInput" type="number" name="dayOfBirth" placeholder="DD" value="" required>
             </label>
             <br>
+
+            <!-- choose gender inputs -->
+
             <label for="gender">
                 <p>Choose your gender: </p>
                 Male
@@ -44,10 +53,18 @@
             <br><br>
             <input id="generate-name" type="submit" name="" value="Generate name">
             <br><br>
-          </form>
-          <form class="reset-form" onsubmit="return clearInput()">
+        </form>
+
+        <!-- Reset form inputs button -->
+
+        <form class="reset-form" onsubmit="return clearInput()">
             <input class="clear" type="submit" value="Reset">
-          </form>
+        </form>
+        <h4 id = "nameDisplay"><strong>Your Akan name will be displayed below:</strong></h4>
+        
+        <!-- Block to display Akan Name  -->
+
+        <p id="your-akan-name"></p>
     </div>
 </body>
 </html>
