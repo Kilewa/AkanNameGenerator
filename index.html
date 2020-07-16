@@ -11,7 +11,7 @@
     <div class="container">
 
         <!-- The Landing Page / welcome Note -->
-        
+
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Welcome to Akan Names Generator</h1>
@@ -28,15 +28,15 @@
 
         <form class="input-form" onsubmit="return generateAkanName()">
             <label for="yearOfBirth">
-                Year:
+                YEAR:
                 <input id="yearInput" type="number" name="yearOfBirth" placeholder="YYYY" value="" required>
             </label>
             <label for="monthOfBirth">
-                Month:
+                MONTH:
                 <input id="monthInput" type="number" name="monthOfBirth" placeholder="MM" value="" required>
             </label>
             <label for="dayOfBirth">
-                Day:
+                DAY:
                 <input id="dayInput" type="number" name="dayOfBirth" placeholder="DD" value="" required>
             </label>
             <br>
@@ -44,21 +44,21 @@
             <!-- choose gender inputs -->
 
             <label for="gender">
-                <p>Choose your gender: </p>
-                Male
+                <p>CHOOSE YOUR GENDER: </p>
+                MALE
                 <input id="maleInput" type="radio" name="gender" value="male" required>
-                Female
+                FEMALE
                 <input id="femaleInput" type="radio" name="gender" value="female" required>
             </label>
             <br><br>
-            <input id="generate-name" type="submit" name="" value="Generate name">
+            <input class="bg-primary" id="generate-name" type="submit" name="" value="Generate Name">
             <br><br>
         </form>
 
         <!-- Reset form inputs button -->
 
         <form class="reset-form" onsubmit="return clearInput()">
-            <input class="clear" type="submit" value="Reset">
+            <input class="reset-btn bg-danger" type="submit" value="Reset">
         </form>
         <h4 id = "nameDisplay"><strong>Your Akan name will be displayed below:</strong></h4>
         
