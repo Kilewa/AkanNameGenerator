@@ -32,7 +32,7 @@ Follow the below steps to set up this application
 * Javascript  
 
 ### Github Pages link
-You can view and use the live application by visiting this link   [Akan Names Generator](kilewa.github.io/akannamegenerator/)
+You can view and use the live application by visiting this link   [Akan Names Generator](https://kilewa.github.io/AkanNameGenerator/)
 
 ### Support and contact details
 Please feel free to give feedback or raise any issues/ bugs through the following means:
