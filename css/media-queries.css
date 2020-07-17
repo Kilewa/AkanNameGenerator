@@ -30,5 +30,65 @@
         border-bottom-right-radius: 40px;
         border-bottom-left-radius: 40px;
     }
+    input[type=number]{
+        margin: 10px;
+    } 
+    #generate-name{
+        width: 40%;
+        margin: 20px;
+        padding: 8px;
+    }
+
+    .reset-btn{
+        width: 40%;
+        margin: 20px;
+        padding: 8px;
+    }
+    .copyright{
+        min-height: 50vh;
+    }
+}
+
+/*extra Small devices (portrait phones and large phones, 375px and down) */
+
+@media only screen and (max-width: 375px) {
+    .jumbotron h1{
+        font-size: 18px;
+    }
+    #nameDisplay{
+        padding: 8px;
+    }
+    .block{
+        height: 40vh;
+        font-size: 14px;
+        text-align: justify;
+        align-items: center;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .input-form{
+        padding: 10px;
+        margin: 10px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    input[type=number]{
+        margin: 8px;
+    } 
+    #generate-name{
+        width: 40%;
+        margin: 20px;
+        padding: 8px;
+    }
+
+    .reset-btn{
+        width: 40%;
+        margin: 20px;
+        padding: 8px;
+    }
+    .copyright{
+        min-height: 60vh;
+    }
 
 }

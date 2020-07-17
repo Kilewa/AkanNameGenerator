@@ -98,3 +98,13 @@ input[type=radio] {
     margin-left: auto;
     height: 50px;
 }
+
+.copyright{
+    text-align: center;
+    background-color: #AED4E6;
+    color: #5C1A1B;
+    min-height: 30vh;
+    justify-content: center;
+    opacity: 0.9;
+    padding: 80px;
+}
