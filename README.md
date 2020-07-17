@@ -1,13 +1,11 @@
 ### Akan Names Generator
-This is a web application that generates an Akan
-name based on the date of birth and gender by determining the day one was born. Akan names are derived from Ghanian culture.
 ### Version
  Akan Name Generator v1.0
 
 ### Description
-   This web app helps one generate their Akan name based on their date of birth. The users simply inputs their date of birth 
-   in the form provided,select gender, and click on generate name button. The app then calculates day of the week they were born
-   and genenates Akan name for them based on their gender.
+   This is a  web application that helps one generate their Akan name based on their date of birth. Akan names are derived from Ghanian culture.
+   The users simply inputs their date of birth in the form provided,select gender, and click on generate name button.
+   The app then calculates day of the week they were born and genenates Akan name for them based on their gender.
 ### Features
 This App features the below in summary:
 * Input of year of birth.
@@ -30,6 +28,9 @@ Follow the below steps to set up this application
 * HTML  
 * CSS
 * Javascript  
+* Bootstrap
+* GIT version control
+
 
 ### Github Pages link
 You can view and use the live application by visiting this link   [Akan Names Generator](https://kilewa.github.io/AkanNameGenerator/)
@@ -39,7 +40,7 @@ Please feel free to give feedback or raise any issues/ bugs through the followin
 * kilewageorge230@gmail.com
 
 ### License
-### *MIT License*
+
  MIT License
 
 Copyright (c) 2020 George Kilewa
