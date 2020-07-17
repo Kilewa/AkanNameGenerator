@@ -68,7 +68,6 @@ const generateAkanName = () =>{
         index = dayOfWeekNumber;
     }
 
-
     if (genderSelected == "male" && monthValid && dayValid) {
         document.getElementById('your-akan-name').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleAkanNames[index]+ "🎉🎉🎉";
         document.getElementById('nameDisplay').textContent = "Amazing! You got a Name!!";
