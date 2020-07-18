@@ -82,3 +82,7 @@ const generateAkanName = () =>{
         alert("Date or Month Invalid! Choose a Correct One!!");
     }
 }
+
+$(".reset-btn").click(function () {
+    event.preventDefault();
+ });
